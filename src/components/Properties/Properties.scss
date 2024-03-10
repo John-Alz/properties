@@ -1,0 +1,23 @@
+.properties {
+    background-color: #121826;
+    width           : 85%;
+    margin          : 0 auto;
+
+    & h1 {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style : normal;
+        font-size  : 28px;
+        color      : #F2F9FE;
+        margin-bottom: 40px;
+    }
+
+    &-container {
+        display              : grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows   : repeat(3, auto);
+        gap                  : 50px;
+
+    }
+
+}

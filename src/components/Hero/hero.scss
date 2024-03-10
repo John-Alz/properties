@@ -1,0 +1,32 @@
+.Hero {
+    background         : url('../../assets/hero-image.jpg') no-repeat;
+    // background-color: red;
+    background-size    : cover;
+    height             : 100vh;
+    width              : 100%;
+
+    &-container {
+        padding-top : 220px;
+        padding-left:170px;
+    
+        &-title {
+            font-family        : "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight        : bold;
+            font-style         : normal;
+            font-size          : 74px;
+    
+        }
+    
+        &-desc {
+            font-family        : "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight        : 400;
+            font-style         : normal;
+            font-size          : 28px;
+    
+        }
+    }
+}
+
+
