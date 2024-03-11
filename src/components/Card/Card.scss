@@ -110,6 +110,14 @@
                 font-style : normal;
                 font-size  : 18px;
                 color      : #F2F9FE;
+
+            &-text {
+                font-family: "Outfit", sans-serif;
+                font-weight: 400;
+                font-style : normal;
+                font-size  : 14px;
+                color      : #97A3B6;
+            }
             }
 
         }
@@ -119,6 +127,12 @@
             display    : flex;
             color      : #F2F9FE;
             align-items: center;
+            font-family: "Outfit", sans-serif;
+                font-weight: 400;
+                font-style : normal;
+                font-size  : 15px;
+                color      : #F2F9FE;
+            
         }
     }
 
