@@ -1,7 +1,8 @@
 .Hero {
     background         : url('../../assets/hero-image.jpg') no-repeat;
-    // background-color: red;
+    // background-color: red;\
     background-size    : cover;
+    background-position: center; 
     height             : 100vh;
     width              : 100%;
 
@@ -27,6 +28,54 @@
     
         }
     }
+
+    @media only screen and (max-width: 1024px){
+        /*Tablets [601px -> 1200px]*/
+
+        &-container {
+            padding-top : 420px;
+            padding-left:120px;
+        
+        }
+    }
+
+    @media only screen and (max-width: 700px){
+        /*Tablets [601px -> 1200px]*/
+        &-container {
+            padding-top : 250px;
+            padding-left:74px;
+        
+            &-title {
+                font-size          : 54px;
+        
+            }
+        
+            &-desc {
+                font-size          : 20px;
+        
+            }
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        /*Tablets [601px -> 1200px]*/
+        &-container {
+
+            padding-left: 54px;
+        
+            &-title {
+                font-size          : 44px;
+        
+            }
+        
+            &-desc {
+                font-size          : 16px;
+        
+            }
+        }
+    }
+  
+
 }
 
 
