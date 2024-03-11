@@ -67,8 +67,13 @@
             flex-direction: row;
             align-items   : center;
             gap           : 5px;
+            margin: 0;
+            padding: 0;
 
-
+            & svg {
+                display: inline-block;
+                vertical-align: middle;
+            }
         }
 
         &-content-people {
